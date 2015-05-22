@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AFFB5CD1B0ED80600EA0F5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5CC1B0ED80600EA0F5D /* main.m */; };
+		4AFFB5D01B0ED80600EA0F5D /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5CF1B0ED80600EA0F5D /* TCAppDelegate.m */; };
+		4AFFB5D31B0ED80600EA0F5D /* TCDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5D21B0ED80600EA0F5D /* TCDemoViewController.m */; };
+		4AFFB5D61B0ED80600EA0F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AFFB5D41B0ED80600EA0F5D /* Main.storyboard */; };
+		4AFFB5D81B0ED80600EA0F5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AFFB5D71B0ED80600EA0F5D /* Images.xcassets */; };
+		4AFFB5DB1B0ED80600EA0F5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AFFB5D91B0ED80600EA0F5D /* LaunchScreen.xib */; };
+		4AFFB5F41B0ED8FD00EA0F5D /* FDToastController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5F31B0ED8FD00EA0F5D /* FDToastController.m */; };
+		4AFFB5F71B0ED90F00EA0F5D /* FDToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5F61B0ED90F00EA0F5D /* FDToastView.m */; };
+		4AFFB5FA1B0ED93300EA0F5D /* FDToastCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5F91B0ED93300EA0F5D /* FDToastCenter.m */; };
+		4AFFB5FD1B0EDAE700EA0F5D /* FDToastController+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5FC1B0EDAE700EA0F5D /* FDToastController+Queue.m */; };
+		4AFFB6001B0EDAF100EA0F5D /* FDToastController+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5FF1B0EDAF100EA0F5D /* FDToastController+View.m */; };
+		4AFFB6021B0EDC3000EA0F5D /* FDToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AFFB6011B0EDC3000EA0F5D /* FDToastView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AFFB5C71B0ED80600EA0F5D /* FDToastCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDToastCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AFFB5CB1B0ED80600EA0F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AFFB5CC1B0ED80600EA0F5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AFFB5CE1B0ED80600EA0F5D /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		4AFFB5CF1B0ED80600EA0F5D /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+		4AFFB5D11B0ED80600EA0F5D /* TCDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCDemoViewController.h; sourceTree = "<group>"; };
+		4AFFB5D21B0ED80600EA0F5D /* TCDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCDemoViewController.m; sourceTree = "<group>"; };
+		4AFFB5D51B0ED80600EA0F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AFFB5D71B0ED80600EA0F5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4AFFB5DA1B0ED80600EA0F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4AFFB5F21B0ED8FD00EA0F5D /* FDToastController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDToastController.h; sourceTree = "<group>"; };
+		4AFFB5F31B0ED8FD00EA0F5D /* FDToastController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDToastController.m; sourceTree = "<group>"; };
+		4AFFB5F51B0ED90F00EA0F5D /* FDToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDToastView.h; sourceTree = "<group>"; };
+		4AFFB5F61B0ED90F00EA0F5D /* FDToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDToastView.m; sourceTree = "<group>"; };
+		4AFFB5F81B0ED93300EA0F5D /* FDToastCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDToastCenter.h; sourceTree = "<group>"; };
+		4AFFB5F91B0ED93300EA0F5D /* FDToastCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDToastCenter.m; sourceTree = "<group>"; };
+		4AFFB5FB1B0EDAE700EA0F5D /* FDToastController+Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FDToastController+Queue.h"; sourceTree = "<group>"; };
+		4AFFB5FC1B0EDAE700EA0F5D /* FDToastController+Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FDToastController+Queue.m"; sourceTree = "<group>"; };
+		4AFFB5FE1B0EDAF100EA0F5D /* FDToastController+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FDToastController+View.h"; sourceTree = "<group>"; };
+		4AFFB5FF1B0EDAF100EA0F5D /* FDToastController+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FDToastController+View.m"; sourceTree = "<group>"; };
+		4AFFB6011B0EDC3000EA0F5D /* FDToastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDToastView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AFFB5C41B0ED80600EA0F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AFFB5BE1B0ED80600EA0F5D = {
+			isa = PBXGroup;
+			children = (
+				4AFFB5F01B0ED81300EA0F5D /* Classes */,
+				4AFFB5C91B0ED80600EA0F5D /* FDToastCenter */,
+				4AFFB5C81B0ED80600EA0F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AFFB5C81B0ED80600EA0F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AFFB5C71B0ED80600EA0F5D /* FDToastCenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AFFB5C91B0ED80600EA0F5D /* FDToastCenter */ = {
+			isa = PBXGroup;
+			children = (
+				4AFFB5CE1B0ED80600EA0F5D /* TCAppDelegate.h */,
+				4AFFB5CF1B0ED80600EA0F5D /* TCAppDelegate.m */,
+				4AFFB5D11B0ED80600EA0F5D /* TCDemoViewController.h */,
+				4AFFB5D21B0ED80600EA0F5D /* TCDemoViewController.m */,
+				4AFFB5D41B0ED80600EA0F5D /* Main.storyboard */,
+				4AFFB5F11B0ED81E00EA0F5D /* Resources */,
+				4AFFB5CA1B0ED80600EA0F5D /* Supporting Files */,
+			);
+			path = FDToastCenter;
+			sourceTree = "<group>";
+		};
+		4AFFB5CA1B0ED80600EA0F5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AFFB5CB1B0ED80600EA0F5D /* Info.plist */,
+				4AFFB5CC1B0ED80600EA0F5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AFFB5F01B0ED81300EA0F5D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4AFFB5F21B0ED8FD00EA0F5D /* FDToastController.h */,
+				4AFFB5F31B0ED8FD00EA0F5D /* FDToastController.m */,
+				4AFFB5FB1B0EDAE700EA0F5D /* FDToastController+Queue.h */,
+				4AFFB5FC1B0EDAE700EA0F5D /* FDToastController+Queue.m */,
+				4AFFB5FE1B0EDAF100EA0F5D /* FDToastController+View.h */,
+				4AFFB5FF1B0EDAF100EA0F5D /* FDToastController+View.m */,
+				4AFFB5F81B0ED93300EA0F5D /* FDToastCenter.h */,
+				4AFFB5F91B0ED93300EA0F5D /* FDToastCenter.m */,
+				4AFFB5F51B0ED90F00EA0F5D /* FDToastView.h */,
+				4AFFB5F61B0ED90F00EA0F5D /* FDToastView.m */,
+				4AFFB6011B0EDC3000EA0F5D /* FDToastView.xib */,
+			);
+			name = Classes;
+			path = FDToastCenter/Classes;
+			sourceTree = "<group>";
+		};
+		4AFFB5F11B0ED81E00EA0F5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AFFB5D71B0ED80600EA0F5D /* Images.xcassets */,
+				4AFFB5D91B0ED80600EA0F5D /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AFFB5C61B0ED80600EA0F5D /* FDToastCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AFFB5EA1B0ED80600EA0F5D /* Build configuration list for PBXNativeTarget "FDToastCenter" */;
+			buildPhases = (
+				4AFFB5C31B0ED80600EA0F5D /* Sources */,
+				4AFFB5C41B0ED80600EA0F5D /* Frameworks */,
+				4AFFB5C51B0ED80600EA0F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDToastCenter;
+			productName = FDToastCenter;
+			productReference = 4AFFB5C71B0ED80600EA0F5D /* FDToastCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AFFB5BF1B0ED80600EA0F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Forking Dog";
+				TargetAttributes = {
+					4AFFB5C61B0ED80600EA0F5D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 4AFFB5C21B0ED80600EA0F5D /* Build configuration list for PBXProject "FDToastCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AFFB5BE1B0ED80600EA0F5D;
+			productRefGroup = 4AFFB5C81B0ED80600EA0F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AFFB5C61B0ED80600EA0F5D /* FDToastCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AFFB5C51B0ED80600EA0F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AFFB6021B0EDC3000EA0F5D /* FDToastView.xib in Resources */,
+				4AFFB5D61B0ED80600EA0F5D /* Main.storyboard in Resources */,
+				4AFFB5DB1B0ED80600EA0F5D /* LaunchScreen.xib in Resources */,
+				4AFFB5D81B0ED80600EA0F5D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AFFB5C31B0ED80600EA0F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AFFB5D31B0ED80600EA0F5D /* TCDemoViewController.m in Sources */,
+				4AFFB5F71B0ED90F00EA0F5D /* FDToastView.m in Sources */,
+				4AFFB6001B0EDAF100EA0F5D /* FDToastController+View.m in Sources */,
+				4AFFB5FD1B0EDAE700EA0F5D /* FDToastController+Queue.m in Sources */,
+				4AFFB5FA1B0ED93300EA0F5D /* FDToastCenter.m in Sources */,
+				4AFFB5D01B0ED80600EA0F5D /* TCAppDelegate.m in Sources */,
+				4AFFB5CD1B0ED80600EA0F5D /* main.m in Sources */,
+				4AFFB5F41B0ED8FD00EA0F5D /* FDToastController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AFFB5D41B0ED80600EA0F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AFFB5D51B0ED80600EA0F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AFFB5D91B0ED80600EA0F5D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AFFB5DA1B0ED80600EA0F5D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AFFB5E81B0ED80600EA0F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AFFB5E91B0ED80600EA0F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AFFB5EB1B0ED80600EA0F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDToastCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AFFB5EC1B0ED80600EA0F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDToastCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AFFB5C21B0ED80600EA0F5D /* Build configuration list for PBXProject "FDToastCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AFFB5E81B0ED80600EA0F5D /* Debug */,
+				4AFFB5E91B0ED80600EA0F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AFFB5EA1B0ED80600EA0F5D /* Build configuration list for PBXNativeTarget "FDToastCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AFFB5EB1B0ED80600EA0F5D /* Debug */,
+				4AFFB5EC1B0ED80600EA0F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AFFB5BF1B0ED80600EA0F5D /* Project object */;
+}
