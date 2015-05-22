@@ -7,6 +7,7 @@
 //
 
 #import "TCDemoViewController.h"
+#import "FDToastCenter.h"
 
 @interface TCDemoViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+}
+
+- (IBAction)showRandomButtonTapped:(id)sender
+{
+    [FDToastCenter showDefaultView];
 }
 
 @end

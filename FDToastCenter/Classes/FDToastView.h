@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, FDToastViewIconType) {
+    FDToastViewIconActivityIndicator = 0,
+    FDToastViewIconSuccess,
+    FDToastViewIconError
+};
+
 @interface FDToastView : UIView
+
+@property (nonatomic, copy) NSString *message;
+@property (nonatomic, assign) FDToastViewIconType iconType;
+
++ (void)showInWindow:(UIWindow *)window;
+
+// temp
++ (void)randomizeContent;
 
 @end

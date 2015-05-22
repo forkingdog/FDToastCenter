@@ -13,4 +13,7 @@
 + (void)processError:(NSError *)error;
 + (void)bindRequest:(id)request;
 
+// test entry
++ (void)showDefaultView;
+
 @end
