@@ -20,8 +20,11 @@ typedef NS_ENUM(NSInteger, FDToastViewIconType) {
 @property (nonatomic, assign) FDToastViewIconType iconType;
 
 + (void)showInWindow:(UIWindow *)window;
++ (void)dismiss;
 
 // temp
 + (void)randomizeContent;
+
++ (instancetype)sharedView;
 
 @end

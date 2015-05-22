@@ -160,6 +160,11 @@
     [[self sharedView] setMessage:message];
 }
 
++ (void)dismiss
+{
+    [[self sharedView] dismiss];
+}
+
 #pragma mark - Appearances Helpers
 
 - (void)showInWindow:(UIWindow *)window
@@ -175,6 +180,15 @@
 
         self.constraintsToSuperview = [self constraintsForCenterInBothDimensionsInView:window];
         [window addConstraints:self.constraintsToSuperview];
+    }
+}
+
+- (void)dismiss
+{
+    if (self.superview) {
+        [self.superview removeConstraints:self.constraintsToSuperview];
+        [self removeFromSuperview];
+        // TODO: reset
     }
 }
 

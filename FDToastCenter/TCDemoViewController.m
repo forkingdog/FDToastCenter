@@ -11,6 +11,8 @@
 
 @interface TCDemoViewController ()
 
+@property (nonatomic, assign) NSInteger toastCount;
+
 @end
 
 @implementation TCDemoViewController
@@ -22,7 +24,13 @@
 
 - (IBAction)showRandomButtonTapped:(id)sender
 {
-    [FDToastCenter showDefaultView];
+    @synchronized(self) {
+        self.toastCount ++;
+        
+        FDToastItem *item = [FDToastItem new];
+        item.message = [NSString stringWithFormat:@"第 %@ 条通知", @(self.toastCount)];
+        [FDToastCenter addToastItem:item];
+    }
 }
 
 @end

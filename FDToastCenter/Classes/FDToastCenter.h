@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FDToastItem.h"
 
 @interface FDToastCenter : NSObject
 
++ (void)addToastItem:(FDToastItem *)item;
 + (void)processError:(NSError *)error;
 + (void)bindRequest:(id)request;
 

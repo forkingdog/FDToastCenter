@@ -1,8 +1,8 @@
 //
-//  FDToastController.h
+//  FDToastItem.h
 //  FDToastCenter
 //
-//  Created by Phil on 15/5/22.
+//  Created by Daifu Tang  on 15/5/22.
 //  Copyright (c) 2015年 Forking Dog. All rights reserved.
 //
 
@@ -20,6 +20,8 @@ typedef NS_ENUM(NSInteger, FDToastItemState) {
     FDToastItemStateComplete
 };
 
+@protocol FDToastItemDelegate;
+
 @interface FDToastItem : NSObject
 
 @property (nonatomic, assign) FDToastItemType type;
@@ -27,12 +29,17 @@ typedef NS_ENUM(NSInteger, FDToastItemState) {
 @property (nonatomic, strong) UIImage *icon;
 @property (nonatomic, copy) NSString *message;
 @property (nonatomic, assign) NSTimeInterval duration;
+@property (nonatomic, assign) id <FDToastItemDelegate> delegate;
+- (void)start;
+- (void)finish;
 
 @end
 
 
-@interface FDToastController : NSObject
+@protocol FDToastItemDelegate <NSObject>
 
-- (void)addToastItem:(FDToastItem *)item;
+@optional
+- (void)itemDidActive:(FDToastItem *)item;
+- (void)itemDidComplete:(FDToastItem *)item;
 
 @end

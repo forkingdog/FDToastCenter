@@ -13,12 +13,10 @@
 		4AFFB5D61B0ED80600EA0F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AFFB5D41B0ED80600EA0F5D /* Main.storyboard */; };
 		4AFFB5D81B0ED80600EA0F5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AFFB5D71B0ED80600EA0F5D /* Images.xcassets */; };
 		4AFFB5DB1B0ED80600EA0F5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AFFB5D91B0ED80600EA0F5D /* LaunchScreen.xib */; };
-		4AFFB5F41B0ED8FD00EA0F5D /* FDToastController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5F31B0ED8FD00EA0F5D /* FDToastController.m */; };
 		4AFFB5F71B0ED90F00EA0F5D /* FDToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5F61B0ED90F00EA0F5D /* FDToastView.m */; };
 		4AFFB5FA1B0ED93300EA0F5D /* FDToastCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5F91B0ED93300EA0F5D /* FDToastCenter.m */; };
-		4AFFB5FD1B0EDAE700EA0F5D /* FDToastController+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5FC1B0EDAE700EA0F5D /* FDToastController+Queue.m */; };
-		4AFFB6001B0EDAF100EA0F5D /* FDToastController+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFB5FF1B0EDAF100EA0F5D /* FDToastController+View.m */; };
 		4AFFB6021B0EDC3000EA0F5D /* FDToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AFFB6011B0EDC3000EA0F5D /* FDToastView.xib */; };
+		65C7C8F21B0F19F7005BFCF4 /* FDToastItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C7C8F11B0F19F7005BFCF4 /* FDToastItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,17 +30,13 @@
 		4AFFB5D51B0ED80600EA0F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AFFB5D71B0ED80600EA0F5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4AFFB5DA1B0ED80600EA0F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4AFFB5F21B0ED8FD00EA0F5D /* FDToastController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDToastController.h; sourceTree = "<group>"; };
-		4AFFB5F31B0ED8FD00EA0F5D /* FDToastController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDToastController.m; sourceTree = "<group>"; };
 		4AFFB5F51B0ED90F00EA0F5D /* FDToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDToastView.h; sourceTree = "<group>"; };
 		4AFFB5F61B0ED90F00EA0F5D /* FDToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDToastView.m; sourceTree = "<group>"; };
 		4AFFB5F81B0ED93300EA0F5D /* FDToastCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDToastCenter.h; sourceTree = "<group>"; };
 		4AFFB5F91B0ED93300EA0F5D /* FDToastCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDToastCenter.m; sourceTree = "<group>"; };
-		4AFFB5FB1B0EDAE700EA0F5D /* FDToastController+Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FDToastController+Queue.h"; sourceTree = "<group>"; };
-		4AFFB5FC1B0EDAE700EA0F5D /* FDToastController+Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FDToastController+Queue.m"; sourceTree = "<group>"; };
-		4AFFB5FE1B0EDAF100EA0F5D /* FDToastController+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FDToastController+View.h"; sourceTree = "<group>"; };
-		4AFFB5FF1B0EDAF100EA0F5D /* FDToastController+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FDToastController+View.m"; sourceTree = "<group>"; };
 		4AFFB6011B0EDC3000EA0F5D /* FDToastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDToastView.xib; sourceTree = "<group>"; };
+		65C7C8F01B0F19F7005BFCF4 /* FDToastItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDToastItem.h; sourceTree = "<group>"; };
+		65C7C8F11B0F19F7005BFCF4 /* FDToastItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDToastItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,14 +93,10 @@
 		4AFFB5F01B0ED81300EA0F5D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4AFFB5F21B0ED8FD00EA0F5D /* FDToastController.h */,
-				4AFFB5F31B0ED8FD00EA0F5D /* FDToastController.m */,
-				4AFFB5FB1B0EDAE700EA0F5D /* FDToastController+Queue.h */,
-				4AFFB5FC1B0EDAE700EA0F5D /* FDToastController+Queue.m */,
-				4AFFB5FE1B0EDAF100EA0F5D /* FDToastController+View.h */,
-				4AFFB5FF1B0EDAF100EA0F5D /* FDToastController+View.m */,
 				4AFFB5F81B0ED93300EA0F5D /* FDToastCenter.h */,
 				4AFFB5F91B0ED93300EA0F5D /* FDToastCenter.m */,
+				65C7C8F01B0F19F7005BFCF4 /* FDToastItem.h */,
+				65C7C8F11B0F19F7005BFCF4 /* FDToastItem.m */,
 				4AFFB5F51B0ED90F00EA0F5D /* FDToastView.h */,
 				4AFFB5F61B0ED90F00EA0F5D /* FDToastView.m */,
 				4AFFB6011B0EDC3000EA0F5D /* FDToastView.xib */,
@@ -197,12 +187,10 @@
 			files = (
 				4AFFB5D31B0ED80600EA0F5D /* TCDemoViewController.m in Sources */,
 				4AFFB5F71B0ED90F00EA0F5D /* FDToastView.m in Sources */,
-				4AFFB6001B0EDAF100EA0F5D /* FDToastController+View.m in Sources */,
-				4AFFB5FD1B0EDAE700EA0F5D /* FDToastController+Queue.m in Sources */,
+				65C7C8F21B0F19F7005BFCF4 /* FDToastItem.m in Sources */,
 				4AFFB5FA1B0ED93300EA0F5D /* FDToastCenter.m in Sources */,
 				4AFFB5D01B0ED80600EA0F5D /* TCAppDelegate.m in Sources */,
 				4AFFB5CD1B0ED80600EA0F5D /* main.m in Sources */,
-				4AFFB5F41B0ED8FD00EA0F5D /* FDToastController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +335,7 @@
 				4AFFB5EC1B0ED80600EA0F5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
